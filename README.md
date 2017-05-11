@@ -89,12 +89,12 @@ depending on how queue’s are configured on the channel.</p>
 
 ### Additional Reference Materials
 
-### [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html) 
-### [Kombu](http://kombu.readthedocs.org/en/latest/introduction.html#installation)
-### [AMQP Reference](https://www.rabbitmq.com/amqp-0-9-1-quickref.html)
-### [EIP Book](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1412347007&sr=1-1&keywords=enterprise+integration+patterns)
-### [EIP Refrence](http://www.eaipatterns.com/index.html)
-### More Tutorials/Examples 
+#### [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html) 
+#### [Kombu](http://kombu.readthedocs.org/en/latest/introduction.html#installation)
+#### [AMQP Reference](https://www.rabbitmq.com/amqp-0-9-1-quickref.html)
+#### [EIP Book](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1412347007&sr=1-1&keywords=enterprise+integration+patterns)
+#### [EIP Refrence](http://www.eaipatterns.com/index.html)
+#### More Tutorials/Examples 
 #### [RabbitMQ](https://www.rabbitmq.com/getstarted.html)
 #### [Kombu](http://kombu.readthedocs.org/en/latest/userguide/examples.html)
 <br/>
