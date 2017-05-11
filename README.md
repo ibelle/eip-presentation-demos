@@ -1,7 +1,7 @@
 #Enterprise Integration Patterns Demo - Introduction to Messaging Patterns
 =========================================================================
 
-##Requirements
+#Requirements
 1. python 2.7+
 2. Install pip: `sudo easy_install pip`
 3. Install virtualenv: `pip install virtualenv`
