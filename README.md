@@ -1,7 +1,7 @@
-#Enterprise Integration Patterns Demo - Introduction to Messaging Patterns
+## Enterprise Integration Patterns Demo - Introduction to Messaging Patterns
 =========================================================================
 
-#Requirements
+### Requirements
 1. python 2.7+
 2. Install pip: `sudo easy_install pip`
 3. Install virtualenv: `pip install virtualenv`
@@ -9,7 +9,7 @@
 5. Install Rabbit MQ Server [Mac Distro](https://www.rabbitmq.com/download.html)
 
 
-##Get environment Set-up
+### Get environment Set-up
 1. Create Your Virtual Environment<br/>
 ```
 $ mkvirtualenv eip_demo
@@ -37,12 +37,12 @@ $ pip install -r requirements.txt
 $ rabbitmq-server
 ```
 
-##A few commands
+### A few commands
 1. Access RabitMQ Admin UI: 
 1. Shutdown RabbitMQ Server: `Ctrl+C` in server window then `k`
 1. Exit Virtual env `deactivate eip_demo`
 
-##The Examples
+### The Examples
 1) <b>Simple Send/Receive</b><br/>
 
 ![Send/Receive](./images/image02.png)
@@ -84,19 +84,19 @@ depending on how queue’s are configured on the channel.</p>
 
 
 
-##Running Examples
+### Running Examples
  See notes and comments in respective client/server files. 
 
-##Additional Reference Materials
+### Additional Reference Materials
 
-###[RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html) 
-###[Kombu](http://kombu.readthedocs.org/en/latest/introduction.html#installation)
-###[AMQP Reference](https://www.rabbitmq.com/amqp-0-9-1-quickref.html)
-###[EIP Book](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1412347007&sr=1-1&keywords=enterprise+integration+patterns)
-###[EIP Refrence](http://www.eaipatterns.com/index.html)
-###More Tutorials/Examples 
-####[RabbitMQ](https://www.rabbitmq.com/getstarted.html)
-####[Kombu](http://kombu.readthedocs.org/en/latest/userguide/examples.html)
+### [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html) 
+### [Kombu](http://kombu.readthedocs.org/en/latest/introduction.html#installation)
+### [AMQP Reference](https://www.rabbitmq.com/amqp-0-9-1-quickref.html)
+### [EIP Book](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1412347007&sr=1-1&keywords=enterprise+integration+patterns)
+### [EIP Refrence](http://www.eaipatterns.com/index.html)
+### More Tutorials/Examples 
+#### [RabbitMQ](https://www.rabbitmq.com/getstarted.html)
+#### [Kombu](http://kombu.readthedocs.org/en/latest/userguide/examples.html)
 <br/>
 <br/>
 
