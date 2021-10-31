@@ -1,4 +1,4 @@
-Django==1.6.2
+django>=2.2.24
 Paver==1.2.3
 amqp==1.4.6
 anyjson==0.3.3
