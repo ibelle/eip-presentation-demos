@@ -33,10 +33,11 @@ if __name__ == '__main__':
    #Let's Build Task Messages from Command Line Args OR just use a default body
     message_body = ' '.join(sys.argv[1:]) or "Hello World..."
     # And ensure we use a more complex binary type
-    msg = {'task': 'default tasks',
-               'work': '%s' % (message_body,),
-               'id' : random.randint(1, 999999999) # Fake Message ID
-               }
+    msg = {
+        'task': 'default tasks',
+        'work': f'{message_body}',
+        'id': random.randint(1, 999999999),
+    }
 
     #Declare connection to Message Server
     with Connection('amqp://guest:guest@localhost//') as conn:

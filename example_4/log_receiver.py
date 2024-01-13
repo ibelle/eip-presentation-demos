@@ -16,10 +16,10 @@ class LogReceiver(ConsumerMixin):
         self.connection = connection
 
     def init_queue(self, severity_bindings):
-        #bind topics to queue
-        bindings = []
-        for severity in severity_bindings:
-            bindings.append(binding(exchange=self.direct_log_exchange, routing_key=severity))
+        bindings = [
+            binding(exchange=self.direct_log_exchange, routing_key=severity)
+            for severity in severity_bindings
+        ]
         self.log_queue = Queue(exchange=self.direct_log_exchange, exclusive=True, bindings=bindings)
 
     def get_consumers(self, Consumer, channel):
